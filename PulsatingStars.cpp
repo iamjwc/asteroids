@@ -200,7 +200,7 @@ void draw()
 
   // Draws each asteroid and particle system in its linked list
   g_asteroids.each( draw_asteroid, false );
-  //g_particles.each( draw_particle_system );
+  g_particles.each( draw_particle_system );
 
   glutSwapBuffers();
 	glFlush();
